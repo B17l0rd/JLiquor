@@ -1,0 +1,69 @@
+@media only screen and (min-width:1620px) {
+    #art{
+      text-align: center;
+
+    }
+}
+
+@media only screen and (max-width:1300px){
+    #youridea{
+        min-width: 350px ;
+        min-height: 350px;
+        margin-left: 3rem;
+    }
+}
+
+@media  only screen and (max-width: 1200px){
+    .box{
+       display: flex;
+       flex-wrap: wrap;
+       margin-top: 3rem;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+    }
+    #sugest{
+        margin-top: 3rem;
+        margin-left: 20%;
+    }
+
+}
+
+
+@media only screen and (max-width:777px){
+    ul{
+        font-size: 14px;
+    }
+
+    .insta{
+        display: none;
+    }
+
+    .facebook{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:660px){
+    ul{
+        font-size: 0.78rem;
+    }
+
+    .toplogo{
+        width: 14em;
+
+    }
+
+    .slog{
+        font-size: 1rem;
+    }
+    .insta{
+        display: none;
+    }
+
+    .facebook{
+        display: none;
+    }
+
+}
+

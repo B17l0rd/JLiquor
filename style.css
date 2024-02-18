@@ -1,0 +1,283 @@
+header{
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(155, 176, 190);
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid orangered;
+    border-radius: 20%;
+    padding: .5rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding-left: 2rem ;
+    padding-right: 1rem;
+}
+
+.insta{
+    min-width: 1rem;
+    max-height: 1.5rem;
+}
+
+.facebook{
+    min-width:1rem;
+    max-height: 1.5rem;
+    padding-right: 1.5rem;
+}
+/*main logo*/
+
+.mainlogo{
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    min-height: 40rem;
+    border-radius: 10%;
+}
+
+#jqimg{
+    background-image: url('/resources/images/wallpaperbetter.com_1920x1080.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid orangered;
+    margin-left: 5%;
+}
+.toplogo{
+    margin-top: 1rem;
+    padding-left: 20%;
+    max-height: 6rem;
+}
+.text{
+    margin-top: -2rem;
+    color: brown;
+    font-style: italic;
+}
+
+
+/*Products*/
+.ourproducts{
+    text-align: center;
+    margin-top: 3rem;
+    color: brown;
+    font-size: 3rem;
+    font-style: italic;
+}
+.products{
+    padding-left: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    border-top:  2px solid orangered;
+    border-bottom:  2px solid orangered;
+
+}
+
+/*products image container*/
+.case {    
+    width: 25rem;
+    min-height: 18.75rem;
+    display: flex;
+    align-items: flex-end;
+    margin: 1.2rem;
+    border-radius: 5%;
+}
+
+.description {
+    color: aliceblue;
+    padding-left: 0.635rem;
+    background-color: rgb(0, 0, 0,0.7);
+    background-size: cover;
+    width: 100%;
+    border-radius: 8%;
+    border: 1px solid rgb(150, 161, 172);
+}
+#celloliquers {
+    background-image: url("../images/2023-08-06-18.31.15-scaled.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+    border: 1px solid orangered;
+    
+}
+
+#cocktails {
+    background-image: url("../images/coktails.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 5;
+    border: 1px solid orangered;
+}
+
+#seasonal_cocktails {
+    background-image: url("../images/season_drink_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 5;
+    border: 1px solid orangered;
+
+}
+
+#deserts {
+    background-image: url("../images/deserts.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+    border: 1px solid orangered;
+}
+
+#deserts h3{
+    padding-top: 0.625rem;
+}
+
+#deserts h4{
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.625rem;
+}
+
+
+
+/*Sugestions*/
+.box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 2rem;
+    margin-right: 25%;
+}
+
+.artc{
+    margin-left: 4.375rem;
+}
+
+.question{
+ text-align: center;
+ margin-right: 040%;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-style: oblique;
+}
+
+#youridea{
+  display: flex;
+  background-image: url('/resources/images/your_own_cocktialset.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 28.125rem ;
+  min-height: 28.125rem;
+  margin-right: 18.75rem;
+  align-items: flex-end;
+  border: 2px solid orangered;
+  border-radius: 2%;
+ 
+}
+
+.yourdiscription{
+ background-color: rgb(0, 0, 0,0.6);
+ width: 100%;
+ color: aliceblue;
+ border-radius: 2%;
+ padding-left: 0.5rem;
+ flex-shrink: 2;
+}
+
+.artc,h1,h2,h3,h4,span,p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+/*Contact*/
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*The team */
+.theteam{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: brown;
+    font-size: 3rem;
+    padding-top: 3.5625rem;
+    margin-top: 6.25rem;
+  
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    
+}
+
+.pcontainer{
+    display: flex;
+    align-items: flex-end;
+    min-height: 25rem;
+    width: 20rem;
+    margin: 5rem;
+}
+
+#ceo{
+    background-image: url('../images/Laleman.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+    border-radius: 5%;
+    border: 2px solid orangered;
+}
+
+#founder{
+    background-image: url('/resources/images/Founder.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+    border-radius: 5%;
+    border: 2px solid orangered;
+}
+
+.description2{
+    width: 90%;
+    border-radius: 15%;
+    background-color: rgb(0, 0, 0,0.6);
+    color: aliceblue;
+    padding-left: 20%;
+}
+
+/*contact*/
+.contact{
+    margin: 4rem 4rem 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/*Footer*/
+footer div ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}

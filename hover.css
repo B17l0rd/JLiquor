@@ -1,0 +1,13 @@
+a:hover{
+   opacity: 0.6;
+   cursor: pointer;
+
+}
+
+a,clicked{
+  color: rgb(12, 72, 92);
+}
+
+a{
+    text-decoration: none;
+}

@@ -51,7 +51,7 @@ nav ul li {
 }
 
 #jqimg{
-    background-image: url('/resources/images/wallpaperbetter.com_1920x1080.jpg');
+    background-image: url('/JLiquor/resources/images/wallpaperbetter.com_1920x1080.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     border: 2px solid orangered;
@@ -106,7 +106,7 @@ nav ul li {
     border: 1px solid rgb(150, 161, 172);
 }
 #celloliquers {
-    background-image: url("../images/2023-08-06-18.31.15-scaled.jpg");
+    background-image: url("/JLiquor/resources/images/2023-08-06-18.31.15-scaled.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -116,7 +116,7 @@ nav ul li {
 }
 
 #cocktails {
-    background-image: url("../images/coktails.jpg");
+    background-image: url("/JLiquor/resources/images/coktails.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -125,7 +125,7 @@ nav ul li {
 }
 
 #seasonal_cocktails {
-    background-image: url("../images/season_drink_logo.png");
+    background-image: url("/JLiquor/resources/images/season_drink_logo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -135,7 +135,7 @@ nav ul li {
 }
 
 #deserts {
-    background-image: url("../images/deserts.jpg");
+    background-image: url("/JLiquor/resources/images/deserts.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -176,7 +176,7 @@ nav ul li {
 
 #youridea{
   display: flex;
-  background-image: url('/resources/images/your_own_cocktialset.jpg');
+  background-image: url('/JLiquor/resources/images/your_own_cocktialset.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 28.125rem ;
@@ -251,7 +251,7 @@ nav ul li {
 }
 
 #founder{
-    background-image: url('/resources/images/Founder.png');
+    background-image: url('/JLiquor/resources/images/Founder.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
